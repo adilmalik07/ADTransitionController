@@ -282,6 +282,7 @@
 
 - (IBAction)slide:(id)sender {
     ADTransition * animation = [[ADSlideTransition alloc] initWithDuration:_duration orientation:_orientation sourceRect:self.view.frame];
+    animation.showShadow = YES;
     [self _pushViewControllerWithTransition:animation];
 }
 - (IBAction)fade:(id)sender {

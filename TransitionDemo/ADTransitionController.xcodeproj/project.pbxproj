@@ -73,6 +73,8 @@
 		6FB67DBE18058562009F27B1 /* ADTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB67DBD18058562009F27B1 /* ADTransitioningDelegate.m */; };
 		6FB67DC118059126009F27B1 /* ADNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB67DC018059126009F27B1 /* ADNavigationControllerDelegate.m */; };
 		6FB67DC41806B3FF009F27B1 /* ADTransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB67DC31806B3FF009F27B1 /* ADTransitioningViewController.m */; };
+		85D98E4C1C8ED12A0058DD48 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D98E4B1C8ED12A0058DD48 /* Launch Screen.storyboard */; };
+		85D98E4F1C8ED3450058DD48 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D98E4E1C8ED3450058DD48 /* UIView+Shadow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +176,9 @@
 		6FB67DC018059126009F27B1 /* ADNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationControllerDelegate.m; sourceTree = "<group>"; };
 		6FB67DC21806B3FF009F27B1 /* ADTransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTransitioningViewController.h; sourceTree = "<group>"; };
 		6FB67DC31806B3FF009F27B1 /* ADTransitioningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTransitioningViewController.m; sourceTree = "<group>"; };
+		85D98E4B1C8ED12A0058DD48 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		85D98E4D1C8ED3450058DD48 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		85D98E4E1C8ED3450058DD48 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +216,8 @@
 				6FB67DC018059126009F27B1 /* ADNavigationControllerDelegate.m */,
 				6FB67DC21806B3FF009F27B1 /* ADTransitioningViewController.h */,
 				6FB67DC31806B3FF009F27B1 /* ADTransitioningViewController.m */,
+				85D98E4D1C8ED3450058DD48 /* UIView+Shadow.h */,
+				85D98E4E1C8ED3450058DD48 /* UIView+Shadow.m */,
 			);
 			name = ADTransitionController;
 			path = ../ADTransitionController;
@@ -330,6 +337,7 @@
 				49A63770175E3DA5006B3187 /* Icon.png */,
 				49A63771175E3DA5006B3187 /* Icon@2x.png */,
 				498F0CB1175CDC0100EFBC6F /* Assets */,
+				85D98E4B1C8ED12A0058DD48 /* Launch Screen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
@@ -443,6 +451,7 @@
 				498C54C01753BC9D00438969 /* ALTransitionTestViewController.xib in Resources */,
 				49F4C390175798A50083DE48 /* ALSettingsViewController.xib in Resources */,
 				498F0C6C175CC14800EFBC6F /* ALTableViewHeaderBackground.png in Resources */,
+				85D98E4C1C8ED12A0058DD48 /* Launch Screen.storyboard in Resources */,
 				498F0C6D175CC14800EFBC6F /* ALTableViewHeaderBackground@2x.png in Resources */,
 				498F0C76175CC50D00EFBC6F /* ALBackButtonOff.png in Resources */,
 				498F0C77175CC50D00EFBC6F /* ALBackButtonOff@2x.png in Resources */,
@@ -492,6 +501,7 @@
 				490A8613175DED910085D3D8 /* ADFadeTransition.m in Sources */,
 				490A8614175DED910085D3D8 /* ADFlipTransition.m in Sources */,
 				490A8615175DED910085D3D8 /* ADFoldTransition.m in Sources */,
+				85D98E4F1C8ED3450058DD48 /* UIView+Shadow.m in Sources */,
 				490A8616175DED910085D3D8 /* ADGhostTransition.m in Sources */,
 				490A8617175DED910085D3D8 /* ADGlueTransition.m in Sources */,
 				6FB67DC118059126009F27B1 /* ADNavigationControllerDelegate.m in Sources */,

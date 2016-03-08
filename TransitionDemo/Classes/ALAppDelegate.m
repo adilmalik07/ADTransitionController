@@ -29,6 +29,7 @@
     if (AD_SYSTEM_VERSION_GREATER_THAN_7) {
         transitionController = [[UINavigationController alloc] initWithRootViewController:viewController];
         _navigationDelegate = [[ADNavigationControllerDelegate alloc] init];
+        
         ((UINavigationController *)transitionController).delegate = _navigationDelegate;
     } else {
         transitionController = [[ADTransitionController alloc] initWithRootViewController:viewController];
@@ -53,10 +54,9 @@
 
     [[UIToolbar appearance] setBackgroundImage:[[UIImage imageNamed:@"ALNavigationBarBackground"] stretchableImageWithLeftCapWidth:1.0f topCapHeight:1.0f] forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
 
-    // Remove status bar
-    [UIApplication sharedApplication].statusBarHidden = YES;
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
 
-    self.window.backgroundColor = [UIColor blackColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

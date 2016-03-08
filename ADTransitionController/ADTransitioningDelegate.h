@@ -11,5 +11,6 @@
 
 @interface ADTransitioningDelegate : NSObject <UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning, ADTransitionDelegate>
 @property (nonatomic, strong) ADTransition * transition;
+
 - (id)initWithTransition:(ADTransition *)transition;
 @end

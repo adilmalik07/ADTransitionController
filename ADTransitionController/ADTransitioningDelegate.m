@@ -8,6 +8,7 @@
 
 #import "ADTransitioningDelegate.h"
 #import "ADTransitionController.h"
+#import "UIView+Shadow.h"
 
 #define AD_Z_DISTANCE 1000.0f
 
@@ -76,7 +77,10 @@
 
     UIView * wrapperView = [[ADTransitionView alloc] initWithFrame:fromView.frame];
     fromView.frame = fromView.bounds;
-    toView.frame = toView.bounds;
+    toView.frame = fromView.bounds;
+
+    [fromView showShadow:self.transition.showShadow];
+    [toView showShadow:self.transition.showShadow];
 
     wrapperView.autoresizesSubviews = YES;
     wrapperView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
